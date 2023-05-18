@@ -1,0 +1,2 @@
+/Users/joshsimmons/Documents/github/yabai/CMakeFiles/edit_cache.dir
+/Users/joshsimmons/Documents/github/yabai/CMakeFiles/rebuild_cache.dir

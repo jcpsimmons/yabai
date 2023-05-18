@@ -1,0 +1,502 @@
+The system is: Darwin - 22.3.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/joshsimmons/Documents/github/yabai/CMakeFiles/3.22.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/joshsimmons/Documents/github/yabai/CMakeFiles/3.22.3/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/joshsimmons/Documents/github/yabai/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/nix/store/aws6v018g6gsrix4yq704ldd4kmzxina-gnumake-4.3/bin/make -f Makefile cmTC_ebbb8/fast && /nix/store/aws6v018g6gsrix4yq704ldd4kmzxina-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_ebbb8.dir/build.make CMakeFiles/cmTC_ebbb8.dir/build
+make[1]: Entering directory '/Users/joshsimmons/Documents/GitHub/yabai/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o
+/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.12   -v -Wl,-v -MD -MT CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o -c /nix/store/wwinbyyyghak6xwfyyjgrlcf8v0zb2z4-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+clang version 11.1.0
+Target: x86_64-apple-darwin
+Thread model: posix
+InstalledDir: /nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/bin
+clang-11: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/bin/clang-11" -cc1 -triple x86_64-apple-macosx10.12.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -faligned-alloc-unavailable -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -target-cpu penryn -debugger-tuning=lldb -target-linker-version 530 -v -nostdsysteminc -resource-dir /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root -dependency-file CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -idirafter /nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include -iframework /nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -iframework /nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -iframework /nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -iframework /nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -iframework /nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -iframework /nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -isystem /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include -isystem /nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include -isystem /nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include -iframework /nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks -iframework /nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -iframework /nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -iframework /nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -iframework /nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -iframework /nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -iframework /nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -isystem /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include -isystem /nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include -isystem /nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include -iframework /nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks -D _FORTIFY_SOURCE=2 -internal-isystem /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include -O2 -Wformat -Wformat-security -Werror=format-security -fdebug-compilation-dir /Users/joshsimmons/Documents/GitHub/yabai/CMakeFiles/CMakeTmp -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o -x c /nix/store/wwinbyyyghak6xwfyyjgrlcf8v0zb2z4-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+clang -cc1 version 11.1.0 based upon LLVM 11.1.0 default target x86_64-apple-darwin22.3.0
+ignoring duplicate directory "/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include"
+ignoring duplicate directory "/nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include"
+ignoring duplicate directory "/nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include"
+ignoring duplicate directory "/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks"
+ignoring duplicate directory "/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks"
+ignoring duplicate directory "/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks"
+ignoring duplicate directory "/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks"
+ignoring duplicate directory "/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks"
+ignoring duplicate directory "/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks"
+ignoring duplicate directory "/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include
+ /nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include
+ /nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include
+ /nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks (framework directory)
+ /nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks (framework directory)
+ /nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks (framework directory)
+ /nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks (framework directory)
+ /nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks (framework directory)
+ /nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks (framework directory)
+ /nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks (framework directory)
+ /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include
+ /nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include
+End of search list.
+Linking C executable cmTC_ebbb8
+/nix/store/wwinbyyyghak6xwfyyjgrlcf8v0zb2z4-cmake-3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebbb8.dir/link.txt --verbose=1
+/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/clang  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.12 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o -o cmTC_ebbb8 
+clang version 11.1.0
+Target: x86_64-apple-darwin
+Thread model: posix
+InstalledDir: /nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/bin
+ "/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/ld" -demangle -lto_library /nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.12.0 13.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o cmTC_ebbb8 -L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib -L/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib -L/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib -L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib -L/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib -L/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib -L/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib -L/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib -L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib -no_uuid -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o -arch x86_64 -lSystem /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/lib/darwin/libclang_rt.osx.a -F/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -F/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -F/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -F/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -F/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -F/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -F/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks -F/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -F/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -F/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -F/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -F/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -F/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -F/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 23:42:00 Dec 24 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib
+	/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib
+	/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib
+	/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib
+	/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib
+	/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib
+	/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib
+	/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib
+	/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib
+Framework search paths:
+	/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks
+	/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks
+	/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks
+	/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks
+	/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks
+	/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks
+	/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks
+	/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks
+	/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks
+	/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks
+	/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks
+	/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks
+	/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks
+	/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks
+make[1]: Leaving directory '/Users/joshsimmons/Documents/GitHub/yabai/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include]
+    add: [/nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include]
+    add: [/nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include]
+    add: [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include]
+    add: [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include]
+  end of search list found
+  collapse include dir [/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include] ==> [/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include]
+  collapse include dir [/nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include] ==> [/nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include]
+  collapse include dir [/nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include] ==> [/nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include]
+  collapse include dir [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include] ==> [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include]
+  collapse include dir [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include] ==> [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include]
+  implicit include dirs: [/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include;/nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include;/nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include;/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include;/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/joshsimmons/Documents/github/yabai/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/nix/store/aws6v018g6gsrix4yq704ldd4kmzxina-gnumake-4.3/bin/make -f Makefile cmTC_ebbb8/fast && /nix/store/aws6v018g6gsrix4yq704ldd4kmzxina-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_ebbb8.dir/build.make CMakeFiles/cmTC_ebbb8.dir/build]
+  ignore line: [make[1]: Entering directory '/Users/joshsimmons/Documents/GitHub/yabai/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/clang   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.12   -v -Wl -v -MD -MT CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o -c /nix/store/wwinbyyyghak6xwfyyjgrlcf8v0zb2z4-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 11.1.0]
+  ignore line: [Target: x86_64-apple-darwin]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/bin]
+  ignore line: [clang-11: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/bin/clang-11" -cc1 -triple x86_64-apple-macosx10.12.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -faligned-alloc-unavailable -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -target-cpu penryn -debugger-tuning=lldb -target-linker-version 530 -v -nostdsysteminc -resource-dir /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root -dependency-file CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -idirafter /nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include -iframework /nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -iframework /nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -iframework /nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -iframework /nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -iframework /nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -iframework /nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -isystem /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include -isystem /nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include -isystem /nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include -iframework /nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks -iframework /nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -iframework /nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -iframework /nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -iframework /nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -iframework /nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -iframework /nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -isystem /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include -isystem /nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include -isystem /nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include -iframework /nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks -D _FORTIFY_SOURCE=2 -internal-isystem /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include -O2 -Wformat -Wformat-security -Werror=format-security -fdebug-compilation-dir /Users/joshsimmons/Documents/GitHub/yabai/CMakeFiles/CMakeTmp -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o -x c /nix/store/wwinbyyyghak6xwfyyjgrlcf8v0zb2z4-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 11.1.0 based upon LLVM 11.1.0 default target x86_64-apple-darwin22.3.0]
+  ignore line: [ignoring duplicate directory "/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks"]
+  ignore line: [ignoring duplicate directory "/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks"]
+  ignore line: [ignoring duplicate directory "/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks"]
+  ignore line: [ignoring duplicate directory "/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks"]
+  ignore line: [ignoring duplicate directory "/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks"]
+  ignore line: [ignoring duplicate directory "/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks"]
+  ignore line: [ignoring duplicate directory "/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include]
+  ignore line: [ /nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include]
+  ignore line: [ /nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include]
+  ignore line: [ /nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks (framework directory)]
+  ignore line: [ /nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks (framework directory)]
+  ignore line: [ /nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks (framework directory)]
+  ignore line: [ /nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks (framework directory)]
+  ignore line: [ /nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks (framework directory)]
+  ignore line: [ /nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks (framework directory)]
+  ignore line: [ /nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks (framework directory)]
+  ignore line: [ /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include]
+  ignore line: [ /nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_ebbb8]
+  ignore line: [/nix/store/wwinbyyyghak6xwfyyjgrlcf8v0zb2z4-cmake-3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebbb8.dir/link.txt --verbose=1]
+  ignore line: [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/clang  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.12 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o -o cmTC_ebbb8 ]
+  ignore line: [clang version 11.1.0]
+  ignore line: [Target: x86_64-apple-darwin]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/bin]
+  link line: [ "/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/ld" -demangle -lto_library /nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.12.0 13.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o cmTC_ebbb8 -L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib -L/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib -L/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib -L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib -L/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib -L/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib -L/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib -L/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib -L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib -no_uuid -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o -arch x86_64 -lSystem /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/lib/darwin/libclang_rt.osx.a -F/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -F/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -F/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -F/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -F/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -F/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -F/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks -F/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -F/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -F/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -F/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -F/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -F/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -F/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks]
+    arg [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [10.12.0] ==> ignore
+    arg [13.3] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ebbb8] ==> ignore
+    arg [-L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+    arg [-L/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib] ==> dir [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib]
+    arg [-L/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib] ==> dir [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib]
+    arg [-L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+    arg [-L/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib] ==> dir [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib]
+    arg [-L/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib] ==> dir [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib]
+    arg [-L/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib] ==> dir [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib]
+    arg [-L/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib] ==> dir [/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib]
+    arg [-L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+    arg [-no_uuid] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_ebbb8.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/lib/darwin/libclang_rt.osx.a] ==> lib [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/lib/darwin/libclang_rt.osx.a]
+    arg [-F/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks] ==> ignore
+  Library search paths: [;/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib;/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib;/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib;/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib;/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib;/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib;/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib;/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib;/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+  Framework search paths: [;/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks;/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks;/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks;/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks;/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks;/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks;/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks;/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks;/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks;/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks;/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks;/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks;/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks;/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks]
+  remove lib [System]
+  remove lib [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+  collapse library dir [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib] ==> [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib]
+  collapse library dir [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib] ==> [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib]
+  collapse library dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+  collapse library dir [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib] ==> [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib]
+  collapse library dir [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib] ==> [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib]
+  collapse library dir [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib] ==> [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib]
+  collapse library dir [/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib] ==> [/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib]
+  collapse library dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+  collapse library dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+  collapse library dir [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib] ==> [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib]
+  collapse library dir [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib] ==> [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib]
+  collapse library dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+  collapse library dir [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib] ==> [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib]
+  collapse library dir [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib] ==> [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib]
+  collapse library dir [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib] ==> [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib]
+  collapse library dir [/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib] ==> [/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib]
+  collapse library dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+  collapse framework dir [/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks] ==> [/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks]
+  collapse framework dir [/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks] ==> [/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks]
+  collapse framework dir [/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks] ==> [/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks]
+  collapse framework dir [/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks] ==> [/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks]
+  collapse framework dir [/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks] ==> [/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks]
+  collapse framework dir [/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks] ==> [/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks]
+  collapse framework dir [/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks] ==> [/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks]
+  collapse framework dir [/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks] ==> [/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks]
+  collapse framework dir [/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks] ==> [/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks]
+  collapse framework dir [/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks] ==> [/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks]
+  collapse framework dir [/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks] ==> [/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks]
+  collapse framework dir [/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks] ==> [/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks]
+  collapse framework dir [/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks] ==> [/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks]
+  collapse framework dir [/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks] ==> [/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks]
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib;/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib;/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib;/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib;/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib]
+  implicit fwks: [/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks;/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks;/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks;/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks;/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks;/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks;/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks]
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/joshsimmons/Documents/github/yabai/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/nix/store/aws6v018g6gsrix4yq704ldd4kmzxina-gnumake-4.3/bin/make -f Makefile cmTC_d8534/fast && /nix/store/aws6v018g6gsrix4yq704ldd4kmzxina-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_d8534.dir/build.make CMakeFiles/cmTC_d8534.dir/build
+make[1]: Entering directory '/Users/joshsimmons/Documents/GitHub/yabai/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o
+/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/clang++   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.12   -v -Wl,-v -MD -MT CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/wwinbyyyghak6xwfyyjgrlcf8v0zb2z4-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang version 11.1.0
+Target: x86_64-apple-darwin
+Thread model: posix
+InstalledDir: /nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/bin
+clang-11: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+ (in-process)
+ "/nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/bin/clang-11" -cc1 -triple x86_64-apple-macosx10.12.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -faligned-alloc-unavailable -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -target-cpu penryn -debugger-tuning=lldb -target-linker-version 530 -v -nostdsysteminc -resource-dir /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root -dependency-file CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -idirafter /nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include -iframework /nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -iframework /nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -iframework /nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -iframework /nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -iframework /nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -iframework /nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -isystem /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include -isystem /nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include -isystem /nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include -iframework /nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks -iframework /nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -iframework /nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -iframework /nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -iframework /nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -iframework /nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -iframework /nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -isystem /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include -isystem /nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include -isystem /nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include -iframework /nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks -isystem /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include/c++/v1 -D _FORTIFY_SOURCE=2 -stdlib=libc++ -internal-isystem /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include -O2 -Wformat -Wformat-security -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir /Users/joshsimmons/Documents/GitHub/yabai/CMakeFiles/CMakeTmp -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o -x c++ /nix/store/wwinbyyyghak6xwfyyjgrlcf8v0zb2z4-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 11.1.0 based upon LLVM 11.1.0 default target x86_64-apple-darwin22.3.0
+ignoring duplicate directory "/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include"
+ignoring duplicate directory "/nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include"
+ignoring duplicate directory "/nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include"
+ignoring duplicate directory "/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks"
+ignoring duplicate directory "/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks"
+ignoring duplicate directory "/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks"
+ignoring duplicate directory "/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks"
+ignoring duplicate directory "/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks"
+ignoring duplicate directory "/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks"
+ignoring duplicate directory "/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include
+ /nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include
+ /nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include
+ /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include/c++/v1
+ /nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks (framework directory)
+ /nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks (framework directory)
+ /nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks (framework directory)
+ /nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks (framework directory)
+ /nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks (framework directory)
+ /nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks (framework directory)
+ /nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks (framework directory)
+ /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include
+ /nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include
+End of search list.
+Linking CXX executable cmTC_d8534
+/nix/store/wwinbyyyghak6xwfyyjgrlcf8v0zb2z4-cmake-3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8534.dir/link.txt --verbose=1
+/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/clang++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.12 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d8534 
+clang version 11.1.0
+Target: x86_64-apple-darwin
+Thread model: posix
+InstalledDir: /nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/bin
+ "/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/ld" -demangle -lto_library /nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.12.0 13.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o cmTC_d8534 -L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib -L/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib -L/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib -L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib -L/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib -L/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib -L/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib -L/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib -L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib -no_uuid -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o -arch x86_64 -lc++ -lSystem /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/lib/darwin/libclang_rt.osx.a -F/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -F/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -F/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -F/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -F/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -F/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -F/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks -F/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -F/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -F/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -F/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -F/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -F/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -F/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks
+@(#)PROGRAM:ld  PROJECT:ld64-530
+BUILD 23:42:00 Dec 24 2022
+configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib
+	/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib
+	/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib
+	/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib
+	/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib
+	/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib
+	/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib
+	/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib
+	/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib
+Framework search paths:
+	/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks
+	/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks
+	/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks
+	/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks
+	/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks
+	/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks
+	/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks
+	/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks
+	/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks
+	/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks
+	/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks
+	/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks
+	/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks
+	/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks
+make[1]: Leaving directory '/Users/joshsimmons/Documents/GitHub/yabai/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include]
+    add: [/nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include]
+    add: [/nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include]
+    add: [/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include/c++/v1]
+    add: [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include]
+    add: [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include]
+  end of search list found
+  collapse include dir [/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include] ==> [/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include]
+  collapse include dir [/nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include] ==> [/nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include]
+  collapse include dir [/nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include] ==> [/nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include]
+  collapse include dir [/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include/c++/v1] ==> [/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include/c++/v1]
+  collapse include dir [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include] ==> [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include]
+  collapse include dir [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include] ==> [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include]
+  implicit include dirs: [/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include;/nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include;/nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include;/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include/c++/v1;/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include;/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/joshsimmons/Documents/github/yabai/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/nix/store/aws6v018g6gsrix4yq704ldd4kmzxina-gnumake-4.3/bin/make -f Makefile cmTC_d8534/fast && /nix/store/aws6v018g6gsrix4yq704ldd4kmzxina-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_d8534.dir/build.make CMakeFiles/cmTC_d8534.dir/build]
+  ignore line: [make[1]: Entering directory '/Users/joshsimmons/Documents/GitHub/yabai/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/clang++   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.12   -v -Wl -v -MD -MT CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/wwinbyyyghak6xwfyyjgrlcf8v0zb2z4-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang version 11.1.0]
+  ignore line: [Target: x86_64-apple-darwin]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/bin]
+  ignore line: [clang-11: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+  ignore line: [ (in-process)]
+  ignore line: [ "/nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/bin/clang-11" -cc1 -triple x86_64-apple-macosx10.12.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-rounding-math -munwind-tables -faligned-alloc-unavailable -target-sdk-version=13.3 -fcompatibility-qualified-id-block-type-checking -target-cpu penryn -debugger-tuning=lldb -target-linker-version 530 -v -nostdsysteminc -resource-dir /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root -dependency-file CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -idirafter /nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include -iframework /nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -iframework /nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -iframework /nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -iframework /nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -iframework /nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -iframework /nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -isystem /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include -isystem /nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include -isystem /nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include -iframework /nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks -iframework /nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -iframework /nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -iframework /nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -iframework /nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -iframework /nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -iframework /nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -isystem /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include -isystem /nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include -isystem /nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include -iframework /nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks -isystem /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include/c++/v1 -D _FORTIFY_SOURCE=2 -stdlib=libc++ -internal-isystem /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include -O2 -Wformat -Wformat-security -Werror=format-security -fdeprecated-macro -fdebug-compilation-dir /Users/joshsimmons/Documents/GitHub/yabai/CMakeFiles/CMakeTmp -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o -x c++ /nix/store/wwinbyyyghak6xwfyyjgrlcf8v0zb2z4-cmake-3.22.3/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 11.1.0 based upon LLVM 11.1.0 default target x86_64-apple-darwin22.3.0]
+  ignore line: [ignoring duplicate directory "/nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks"]
+  ignore line: [ignoring duplicate directory "/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks"]
+  ignore line: [ignoring duplicate directory "/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks"]
+  ignore line: [ignoring duplicate directory "/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks"]
+  ignore line: [ignoring duplicate directory "/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks"]
+  ignore line: [ignoring duplicate directory "/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks"]
+  ignore line: [ignoring duplicate directory "/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include]
+  ignore line: [ /nix/store/f2c53mpajs6g674768lqf7nbipb3awka-libcxxabi-11.1.0-dev/include]
+  ignore line: [ /nix/store/cv3faipqpv1cf29xfx47796asdmznsj6-compiler-rt-libc-11.1.0-dev/include]
+  ignore line: [ /nix/store/0xzgnjlka0k429h74kibfc953bps9cij-libcxx-11.1.0-dev/include/c++/v1]
+  ignore line: [ /nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks (framework directory)]
+  ignore line: [ /nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks (framework directory)]
+  ignore line: [ /nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks (framework directory)]
+  ignore line: [ /nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks (framework directory)]
+  ignore line: [ /nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks (framework directory)]
+  ignore line: [ /nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks (framework directory)]
+  ignore line: [ /nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks (framework directory)]
+  ignore line: [ /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/include]
+  ignore line: [ /nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_d8534]
+  ignore line: [/nix/store/wwinbyyyghak6xwfyyjgrlcf8v0zb2z4-cmake-3.22.3/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8534.dir/link.txt --verbose=1]
+  ignore line: [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/clang++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -mmacosx-version-min=10.12 -Wl -search_paths_first -Wl -headerpad_max_install_names  -v -Wl -v CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d8534 ]
+  ignore line: [clang version 11.1.0]
+  ignore line: [Target: x86_64-apple-darwin]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/bin]
+  link line: [ "/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/ld" -demangle -lto_library /nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 10.12.0 13.3 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o cmTC_d8534 -L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib -L/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib -L/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib -L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib -L/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib -L/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib -L/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib -L/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib -L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib -no_uuid -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o -arch x86_64 -lc++ -lSystem /nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/lib/darwin/libclang_rt.osx.a -F/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -F/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -F/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -F/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -F/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -F/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -F/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks -F/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks -F/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks -F/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks -F/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks -F/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks -F/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks -F/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks]
+    arg [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/nix/store/rs5p2l8ssrhkazrv01kd6pqcj38z386m-clang-11.1.0/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-platform_version] ==> ignore
+    arg [macos] ==> ignore
+    arg [10.12.0] ==> ignore
+    arg [13.3] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d8534] ==> ignore
+    arg [-L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+    arg [-L/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib] ==> dir [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib]
+    arg [-L/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib] ==> dir [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib]
+    arg [-L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+    arg [-L/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib] ==> dir [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib]
+    arg [-L/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib] ==> dir [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib]
+    arg [-L/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib] ==> dir [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib]
+    arg [-L/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib] ==> dir [/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib]
+    arg [-L/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+    arg [-no_uuid] ==> ignore
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_d8534.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/lib/darwin/libclang_rt.osx.a] ==> lib [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/lib/darwin/libclang_rt.osx.a]
+    arg [-F/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks] ==> ignore
+    arg [-F/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks] ==> ignore
+  Library search paths: [;/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib;/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib;/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib;/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib;/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib;/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib;/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib;/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib;/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+  Framework search paths: [;/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks;/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks;/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks;/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks;/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks;/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks;/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks;/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks;/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks;/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks;/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks;/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks;/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks;/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks]
+  remove lib [System]
+  remove lib [/nix/store/gcbiyikiqhgcxssic7c3mhjhac20ljhh-clang-wrapper-11.1.0/resource-root/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+  collapse library dir [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib] ==> [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib]
+  collapse library dir [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib] ==> [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib]
+  collapse library dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+  collapse library dir [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib] ==> [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib]
+  collapse library dir [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib] ==> [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib]
+  collapse library dir [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib] ==> [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib]
+  collapse library dir [/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib] ==> [/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib]
+  collapse library dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+  collapse library dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+  collapse library dir [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib] ==> [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib]
+  collapse library dir [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib] ==> [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib]
+  collapse library dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+  collapse library dir [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib] ==> [/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib]
+  collapse library dir [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib] ==> [/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib]
+  collapse library dir [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib] ==> [/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib]
+  collapse library dir [/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib] ==> [/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib]
+  collapse library dir [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib] ==> [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib]
+  collapse framework dir [/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks] ==> [/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks]
+  collapse framework dir [/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks] ==> [/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks]
+  collapse framework dir [/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks] ==> [/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks]
+  collapse framework dir [/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks] ==> [/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks]
+  collapse framework dir [/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks] ==> [/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks]
+  collapse framework dir [/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks] ==> [/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks]
+  collapse framework dir [/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks] ==> [/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks]
+  collapse framework dir [/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks] ==> [/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks]
+  collapse framework dir [/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks] ==> [/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks]
+  collapse framework dir [/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks] ==> [/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks]
+  collapse framework dir [/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks] ==> [/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks]
+  collapse framework dir [/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks] ==> [/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks]
+  collapse framework dir [/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks] ==> [/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks]
+  collapse framework dir [/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks] ==> [/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks]
+  implicit libs: [c++]
+  implicit objs: []
+  implicit dirs: [/nix/store/slgdx5b7d56g85kahydamxygql1c33by-libcxx-11.1.0/lib;/nix/store/s9nlh2mnp0xbv7ljys962cm0p6lklv8h-libcxxabi-11.1.0/lib;/nix/store/cmkkajcnzcgamkhpdha24xdrs5lsj8x9-compiler-rt-libc-11.1.0/lib;/nix/store/anqlwihnjh7rkhqmqp04w8fnz8pq90qa-Libsystem-1238.60.2/lib;/nix/store/s2dspmz0x4sfkx97nzn025985g5v7w6p-clang-11.1.0-lib/lib]
+  implicit fwks: [/nix/store/n4jlralr108ljlkpmg6q54yrfc53c746-apple-framework-Accelerate/Library/Frameworks;/nix/store/0gic3hw7fbj8di3x36ikyv673522d40h-apple-framework-CoreWLAN/Library/Frameworks;/nix/store/dhxqh54n41dxlw6r3ai0snmbzjbiz9ax-apple-framework-SecurityFoundation/Library/Frameworks;/nix/store/pypbbbf34ql26ijxxxjjcqid93lkm197-apple-framework-IOBluetooth/Library/Frameworks;/nix/store/cnwlr3qrcy4xii9b9rslgf4kixprwpfi-apple-framework-CoreBluetooth/Library/Frameworks;/nix/store/gq76j583hp7vzzc00cp2kvz89vf91r9c-apple-framework-IOKit/Library/Frameworks;/nix/store/7r2784cawnah9i6w644i7saqc3rzvcy0-swift-corefoundation-unstable-2018-09-14/Library/Frameworks]
+
+
