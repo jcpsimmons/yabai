@@ -20,8 +20,8 @@ install: BUILD_FLAGS=-std=c99 -Wall -DNDEBUG -O2 -fvisibility=hidden -mmacosx-ve
 install: clean-build $(BINS)
 
 $(OSAX_SRC): $(OSAX_PATH)/loader.m $(OSAX_PATH)/payload.m
-	xcrun clang $(OSAX_PATH)/payload.m -shared -fPIC -O2 -mmacosx-version-min=11.0 -arch x86_64 -arch arm64e -o $(OSAX_PATH)/payload $(FRAMEWORK_PATH) -framework SkyLight -framework Foundation -framework Carbon
-	xcrun clang $(OSAX_PATH)/loader.m -O2 -mmacosx-version-min=11.0 -arch x86_64 -arch arm64e -o $(OSAX_PATH)/loader -framework Cocoa
+	xcrun clang $(OSAX_PATH)/payload.m -shared -fPIC -O2 -mmacosx-version-min=11.0 -arch x86_64 -arch arm64 -o $(OSAX_PATH)/payload $(FRAMEWORK_PATH) -framework SkyLight -framework Foundation -framework Carbon
+	xcrun clang $(OSAX_PATH)/loader.m -O2 -mmacosx-version-min=11.0 -arch x86_64 -arch arm64 -o $(OSAX_PATH)/loader -framework Cocoa
 	xxd -i -a $(OSAX_PATH)/payload $(OSAX_PATH)/payload_bin.c
 	xxd -i -a $(OSAX_PATH)/loader $(OSAX_PATH)/loader_bin.c
 	rm -f $(OSAX_PATH)/payload
